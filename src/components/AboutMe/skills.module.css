@@ -1,0 +1,39 @@
+.skillsHeader {
+  margin-top: 30px;
+  color: var(--ocean-blue);
+  text-align: center;
+}
+
+.skillsBox {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.webDevSkill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.javaSkill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.devOpsSkill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 767px) {
+  /* Your smartphone-specific styles go here */
+  .skillsBox {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,24 @@
+.home {
+  font-weight: 550;
+  width: 100dvw;
+  height: 90dvh;
+  background-color: var(--fading-grey);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.headerContainer {
+  padding: 20px;
+}
+/* Styles for devices with a maximum width of 767 pixels (smartphones) */
+@media only screen and (max-width: 767px) {
+  /* Your smartphone-specific styles go here */
+  .home {
+    /* background-image: url("/user_profile.jpeg");  */
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .homeImage {
+    display: none;
+  }
+}

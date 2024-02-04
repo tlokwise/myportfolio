@@ -1,0 +1,18 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --fading-grey: #ced7ed;
+  --cute-green: #00c6bc;
+  --stone-green: #308f89;
+  --ocean-blue: #2193fa;
+}
+
+body {
+  overflow-x: hidden;
+}

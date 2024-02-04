@@ -1,0 +1,35 @@
+.navbar {
+  height: 10dvh;
+  width: 100dvw;
+  background-color: #fff;
+}
+.leftNavbar {
+  display: flex;
+  align-items: center;
+}
+.rightNavbar {
+  display: flex;
+  align-items: center;
+}
+.leftNavbar .avatar {
+  margin-right: 20px;
+}
+
+.rightNavbar .link {
+  padding: 0 25px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.rightNavbar .link:hover {
+  color: var(--stone-green);
+}
+/* Styles for devices with a maximum width of 767 pixels (smartphones) */
+@media only screen and (max-width: 767px) {
+  /* Your smartphone-specific styles go here */
+  .rightNavbar {
+    display: none;
+  }
+  .leftNavbar {
+    float: right;
+  }
+}
