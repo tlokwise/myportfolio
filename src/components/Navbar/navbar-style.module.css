@@ -1,0 +1,80 @@
+.navbar {
+  height: 8dvh;
+  width: 100dvw;
+  /* background-color: #fff; */
+  background-color: var(--cute-green);
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.userInfo {
+  display: flex;
+  align-items: center;
+}
+.userInfo > * {
+  margin-inline: 20px;
+}
+.hireMeBtn {
+
+  font-size: 20px;
+}
+
+.hireMeBtn:hover {
+  background-color: var(--stone-green);
+  color: #fff;
+}
+.link {
+  font-size: 22px;
+  padding: 0 25px;
+  text-decoration: none;
+  font-weight: 500;
+}
+.link:hover {
+  color: var(--stone-green);
+  text-decoration: none;
+}
+/* DRAWER MENU STYLES */
+.drawerMenu {
+  display: none;
+}
+/* Styles for devices with a maximum width of 767 pixels (smartphones) */
+@media only screen and (max-width: 767px) {
+  /* Your smartphone-specific styles go here */
+  .navbar {
+    display: block;
+  }
+  .menuLink {
+    display: none;
+  }
+  .userInfo {
+    display: none;
+  }
+  .drawerMenu {
+    visibility: visible;
+    display: block;
+  }
+
+  .drawerBtn {
+    font-size: 18px;
+  }
+  .drawerBtn:hover {
+    color: var(--stone-green);
+  }
+  .drawerMenuHeaderContainer {
+    display: flex;
+    align-items: center;
+  }
+  .drawerMenuLinks {
+    display: flex;
+    flex-direction: column;
+  }
+  .drawerMenuLinks > * {
+    margin-bottom: 30px;
+  }
+  .drawerMenuFooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
