@@ -2,7 +2,7 @@
 
 ### Just as an introduction, these are my skills:
 
-!(screenshot)[public/screenshot.png]
+![screenshot](public/screenshot.png)
 
 I'm just testing my development skills and having fun. I hope this is useful.
 
